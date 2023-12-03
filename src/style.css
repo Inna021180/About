@@ -1,0 +1,40 @@
+root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.content {
+  margin: 20px;
+}
+
+.container {
+  margin: 20px 20px;
+}
+
+h1 {
+  font-size: 96px !important;
+}
+
+h2 {
+  font-size: 48px !important;
+}
+.navigation-links {
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.primary-link {
+  border-radius: 4px;
+  text-decoration: none;
+  padding: 20px 10px;
+  background-color: #6c63ff; /*var(--primary-color);*/
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3); /*var(--box-shadow);*/
+  color: white;
+}
+
+.email {
+  display: block;
+  text-align: center;
+}
